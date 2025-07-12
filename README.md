@@ -16,4 +16,5 @@ SimpleTable/
 └── datatable.py
 
 ## Installation
-pip install simpledatatabledtk
+pip install . #Local installation
+pip install e . #Local installation in dev mode
