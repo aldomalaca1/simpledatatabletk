@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simpledatatabledtk"
+version = "0.1.0"
+description = "Data table made with components of the Tkinter library"
+readme = "README.md"
+requires-python = ">=3.12.0"
+license = { text = "MIT" }
+authors = [
+    { name="Tu Nombre", email="aldomalaca@outlook.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.scripts]
+simpledatatabletk-main = "simpledatatabledtk.datatable:main"
