@@ -20,9 +20,9 @@ simpledatatabledtk/
 pip install . #Local installation␣
 pip install e . #Local installation in dev mode
 ```
-##Implementantion examples
+## Implementantion examples
 
-#Library declaration
+# Library declaration
 ```python
 import tkinter as tk
 from simpledatatabletk import Table #Import Table
@@ -46,7 +46,7 @@ tb.pack(fill="both", expand=True) #<---- very importat if you want that the tabl
 
 root.mainloop()
 ```
-#Output
+# Output
 <img width="269" height="197" alt="image" src="https://github.com/user-attachments/assets/9917db31-66ff-4b18-8824-18a864eabb82" />
 
 ```python
@@ -62,7 +62,7 @@ table.pack(fill=tk.BOTH, expand=True)
 
 root.mainloop()
 ```
-#Output
+# Output
 <img width="265" height="144" alt="image" src="https://github.com/user-attachments/assets/687430b9-3c75-493c-b586-dc1a8026ef2e" />
 
 
